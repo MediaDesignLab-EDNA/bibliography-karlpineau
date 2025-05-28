@@ -57,7 +57,7 @@ for (var i = 0; i < links.length; i++) {
   // ici, on pourrait ajouter des class en fonction de la colonne “categories”
   a.classList.add('link');
   // texte et href issus des attributs "text" et "url" de l’élément
-  a.textContent = link.Author + ' - ' + link.Title + ' - ' + link.PublicationYear;
+  a.textContent = link.Author;
   a.href = link.Url;
   document.body.appendChild(a);
   // on l’ajoute à la liste des éléments
